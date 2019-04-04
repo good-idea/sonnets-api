@@ -1,0 +1,33 @@
+{
+	"name": "sonnets-api",
+	"version": "1.0.0",
+	"description": "A simple API to fetch Shakespeare's Sonnets",
+	"main": "dist/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon ./src/server.js",
+		"start": "node ./src/server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/good-idea/sonnet-api.git"
+	},
+	"keywords": [
+		"express",
+		"shakespeare",
+		"poetry",
+		"api"
+	],
+	"author": "Joseph Thomas | Good Idea Studio",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/good-idea/sonnet-api/issues"
+	},
+	"homepage": "https://github.com/good-idea/sonnet-api#readme",
+	"dependencies": {
+		"express": "^4.16.4"
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.10"
+	}
+}

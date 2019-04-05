@@ -1,6 +1,6 @@
 const sonnets = require('./sonnets.json')
 
-module.exports.getSonnetTitles = (req, res) => {
+module.exports.getTableOfContents = (req, res) => {
 	const titles = sonnets.map((sonnet, index) => ({
 		number: index + 1,
 		firstLine: sonnet.lines[0],
